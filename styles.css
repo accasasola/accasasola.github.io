@@ -1,42 +1,116 @@
 ﻿body {
-	background-color: rgb(214, 207, 207);
+	background-color: rgb(138, 154, 91);
   }
   
-  h1 {
-	color: rgb(2, 2, 7);
-	margin-left: 20px;
-  }
-  
-
-  img {
-	border-radius: 50%;
+  h2 {
+	color: rgb(12, 52, 37);
+	margin-left: 5px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
   }
   .flex-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(1, 14, 22);
-}
-.flex-item {
-	display: flex;
-	flex-direction: column;
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(1, 14, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50%; 
+    margin: 0 auto; 
+    background-color: rgb(79, 121, 66);
 }
 
-.flex-container {
-	display: flex;
- }
+.photo {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.previous-projects-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+	font-size: 30px;
+	font-style: bold;
+	color: rgb(12, 52, 37);
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(138, 154, 91);
+	border-radius: 5px; 
+}
+
+.flex-container-horizontal {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+
 .flex-item {
-	display: flex;
-	flex-direction: column;
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgb(1, 14, 22);
+    padding: 10px;
+    background-color:white ; 
+    border: 5px solid rgb(138, 154, 91); 
+	font-family: Arial, Helvetica, sans-serif;
+}
+.flex-item h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.flex-item p {
+    font-size: 14px;
+    line-height: 1.5;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.skills-container, .autobiography-container {
+    flex: 1; 
+    padding: 20px; 
+    background-color:  rgb(138, 154, 91); 
+	font-family: Arial, Helvetica, sans-serif;
+}
+.skills-container h2, .autobiography-container h2 {
+    margin-bottom: 10px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+.skills-container, .autobiography-container {
+    flex: 1; 
+    padding: 20px; 
+    background-color: #f0f0f0; 
+    border: 1.5px solid rgb(12, 52, 37); 
+    border-radius: 5px; 
+
+}
+
+.skills-container h2, .autobiography-container h2 {
+    margin-bottom: 10px; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color: rgb(12, 52, 37); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; 
+}
+.back-to-top-btn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(12, 52, 37); 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none; 
+    border-radius: 5px;
+}
+
+.back-to-top-btn:hover {
+    background-color: rgb(12, 52, 37); 
 }

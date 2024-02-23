@@ -1,2 +1,5 @@
 # accasasola.github.io
-for Cmsc 100 exer 2
+Armie Casasola
+BS CMSC
+htpps://accasasola.github.io
+

@@ -22,9 +22,6 @@
 	border-width: 1px;
 	border-color: rgb(1, 14, 22);
 }
- .flex-container {
-	display: flex;
- }
 .flex-item {
 	display: flex;
 	flex-direction: column;

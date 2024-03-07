@@ -10,7 +10,7 @@ function validatePassword(pass1, pass2) {
         return false;
     }
     // Check if password length is at least 8 characters
-    if (password1.length < 8) {
+    if (pass1.length < 8) {
         return false;
     }
     // Check if password contains at least 1 number, 1 uppercase character, and 1 lowercase character
@@ -44,7 +44,7 @@ function storePassword(name, pass1, pass2) {
 }
 
 
-console.log(storePasswordToObject("John", "Hello1234", "Hello1234"));
+console.log(storePassword("John", "Hello1234", "Hello1234"));
 
 
-console.log(storePasswordToObject("Armie", "password", "password"));
+console.log(storePassword("Armie", "password", "password"));

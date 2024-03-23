@@ -4,3 +4,6 @@ We Were Liars,9780385390095,E. Lockhart,2014
 Everyday,9780307931894,David Levithan,2012
 Will, Grayson,Will Grayson,9789510429167,David Levithan,2010
 We Were Liars,9780385390095,E. Lockhart,2014
+Will, Grayson,Will Grayson,9789510429167,David Levithan,2010
+Everyday,9780307931894,David Levithan,2012
+We Were Liars,9780385390095,E. Lockhart,2014

@@ -9,4 +9,4 @@ Create a repo, clone the repo in your local workscpace, name your project and ad
 
 My key takeaway from this is it's easier to add, push and commit changes to the repo through vs code, especially when it's confusing to do it using git bash, I also learned about creating flex boxes in html something that I already forgot from csmc 12.
 
-
+4/17/2024 - hai, you forgot to log out your github acc :3
